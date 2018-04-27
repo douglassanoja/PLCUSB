@@ -1,0 +1,68 @@
+Bill Of Materials
+=================
+Design:   C:\Users\sebastianc\Downloads\PLC USB.DSN
+Doc. no.: <NONE>
+Revision: <NONE>
+Author:   <NONE>
+Created:  24/11/12
+Modified: 27/12/13
+
+QTY  PART-REFS           VALUE               CODE                          
+---  ---------           -----               ----                          
+Resistors
+---------
+15   R1,R6,R7,R9,R12,    10k                                               
+     R15,R18,R20,R23,
+     R26,R29,R32,R35,
+     R38,R41
+3    R2-R4               2k2                                               
+1    R5                  10uHy               M13K                          
+4    R8,R11,R14,R17      47k                                               
+4    R10,R13,R16,R19     1k5                                               
+8    R21,R24,R27,R30,    220                                               
+     R33,R36,R39,R42
+13   R22,R25,R28,R31,    470                                               
+     R34,R37,R40,R43-R48
+
+Capacitors
+----------
+2    C1,C2               22pF                                              
+4    C3,C7-C9            100nF                                             
+1    C4                  470nF                                             
+1    C5                  470u                Maplin VH38R                  
+1    C6                  1000u               Maplin VH50E                  
+2    C10,C11             1nF                                               
+1    C12                 470u                Maplin VH50E                  
+
+Integrated Circuits
+-------------------
+1    U1                                                                    
+1    U2                  PIC16F876A                                        
+1    U3                  7805                                              
+8    U4-U11              OPTOCOUPLER-NPN                                   
+
+Transistors
+-----------
+4    Q1-Q4               2N3904                                            
+
+Diodes
+------
+16   D1-D4,D6,D8,D10,    LED                                               
+     D12,D13,D15,D17,
+     D19,D21,D23,D26,D34
+5    D5,D7,D9,D11,D33    1N4007                                            
+8    D14,D16,D18,D20,    1N4742A                                           
+     D22,D24,D25,D27
+5    D28-D32             1N5231B                                           
+
+Miscellaneous
+-------------
+1    BR1                 B125C1000                                         
+1    J1                  AU-Y1007-R          Digikey AE9925-ND             
+14   J2,J8-J20           TBLOCK-I2                                         
+1    J3                  CONN-SIL3                                         
+4    J4-J7               TBLOCK-I3                                         
+4    RL1-RL4             G5CLE-1-DC12                                      
+1    X1                  12MHz                                             
+1    X2                  CRYSTAL                                           
+
